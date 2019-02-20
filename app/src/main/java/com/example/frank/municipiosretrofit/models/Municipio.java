@@ -9,6 +9,8 @@ import com.google.gson.annotations.SerializedName;
 
 public class Municipio {
 
+    @SerializedName("codigo_dane_municipio")
+    @Expose
     private String codigoDaneMunicipio;
     private String correocontactenos;
     private String direcciN;
